@@ -56,11 +56,11 @@ The rectifies signal looks like this :
 
 `windowing()` is used to augment the data. The function requires the following arguements : `data`, `reps`, `gestures`, `win_len`, `win_stride`.
 
-`data` = Pandas dataframe just like returned by any of the above functions
-`reps` = Repetitions that you want to use for windowing
-`gestures` = The gesture movements that you wish to classify
-`win_len` = (Length of window in milisecond) x 2. For example, for a window of 300ms, use 600 as the `win_len` since the sampling frequency of signal is 2000Hz.
-`win_stride` = (Length of stride in milisecond) x 2. For example, for a stride of 10ms, use 20 as the `win_stride` since the sampling frequency of signal is 2000Hz.
+- `data` = Pandas dataframe just like returned by any of the above functions
+- `reps` = Repetitions that you want to use for windowing
+- `gestures` = The gesture movements that you wish to classify
+- `win_len` = (Length of window in milisecond) x 2. For example, for a window of 300ms, use 600 as the `win_len` since the sampling frequency of signal is 2000Hz.
+- `win_stride` = (Length of stride in milisecond) x 2. For example, for a stride of 10ms, use 20 as the `win_stride` since the sampling frequency of signal is 2000Hz.
 
 ## get_categorical()
 
@@ -71,8 +71,9 @@ For multiclass classification, we need the labels to be represented in one-hot r
 ## plot_cnf_matrix()
 
 It takes the following arguements:
-`saved_model` = The model you have already trained
-`X_test` 
-`y_test`
+
+- `saved_model` = The model you have already trained
+- `X_test` 
+- `y_test`
 
 returns a confision matrix. 
