@@ -62,6 +62,9 @@ The rectifies signal looks like this :
 - `win_len` = (Length of window in milisecond) x 2. For example, for a window of 300ms, use 600 as the `win_len` since the sampling frequency of signal is 2000Hz.
 - `win_stride` = (Length of stride in milisecond) x 2. For example, for a stride of 10ms, use 20 as the `win_stride` since the sampling frequency of signal is 2000Hz.
 
+To understand what windowing function does, please refer to below image (source : Google)
+![](https://github.com/parasgulati8/NinaPro-Helper-Library/blob/master/images/Windowing%20Example.png)
+
 ## get_categorical()
 
 For multiclass classification, we need the labels to be represented in one-hot representation.
