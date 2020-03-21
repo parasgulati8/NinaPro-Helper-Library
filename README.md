@@ -3,7 +3,7 @@
 
 # Description
 
-This library aims at easing the preprocessing, amd training of the EMG signals from the NinaPro DB2 database. 
+This library aims at easing the preprocessing, amd training of the EMG signals from the NinaPro DB2 database. The working of all the functions is showcased in NinaPro_Utility.ipynb file. 
 
 The library provides following functions :
 
